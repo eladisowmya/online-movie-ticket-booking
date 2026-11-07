@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Movie Ticket Booking</h1>
+
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="shows.html">Shows</a>
+    <a href="booking.html">Booking</a>
+</nav>
+</header>
+
+<section id="home">
+    <h2>Welcome to Movie Booking System</h2>
+    <p>Book your favourite movie tickets online!</p>
+</section>
+
+<section id="description">
+    <h2>About Us</h2>
+    <p>
+        Our Movie Ticket Booking System allows customers
+        to view movies, check show timings and book tickets.
+    </p>
+</section>
+
+<section id="movies">
+    <h2>Available Movies</h2>
+    <div id="movieList"></div>
+</section>
+
+<section id="shows">
+    <h2>Available Shows</h2>
+    <div id="showList"></div>
+</section>
+
+<section id="bookings">
+    <h2>Book Your Tickets</h2>
+
+    <form action="/book" method="POST">
+
+        <label>Your Name</label>
+        <input type="text" name="customer_name" required>
+
+        <label>Email</label>
+        <input type="email" name="email" required>
+
+        <label>Select Show</label>
+        <select name="show_id" id="showSelect" required>
+            <option value="">Select a show</option>
+        </select>
+
+        <label>Number of Tickets</label>
+        <input type="number"
+               name="number_of_tickets"
+               min="1"
+               max="10"
+               required>
+
+        <button type="submit">Book Tickets</button>
+
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Movie Ticket Booking System</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

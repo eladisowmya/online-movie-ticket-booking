@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+section {
+    background: white;
+    margin: 25px auto;
+    padding: 30px;
+    width: 85%;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #e63946;
+    margin-bottom: 20px;
+}
+#movieList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie-card {
+    background: #eeeeee;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.movie-card h3 {
+    color: #e63946;
+    margin-bottom: 12px;
+}
+
+.movie-card p {
+    margin: 8px 0;
+}
+.movie-card {
+    background: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+}
+
+.movie-card h3 {
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+.movie-card p {
+    margin: 8px 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    background: #171717;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+section {
+    background: white;
+    margin: 25px auto;
+    padding: 30px;
+    width: 85%;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #e63946;
+    margin-bottom: 20px;
+}
+
+.movie-card, .show-card {
+    background: white;
+    padding: 20px;
+    margin: 12px;
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+.movie-card h3, .show-card h3 {
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+form {
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #e63946;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #b71c1c;
+}
+
+footer {
+    background: #171717;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
